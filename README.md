@@ -51,7 +51,7 @@ A lo largo del proyecto se buscará responder, entre otras, las siguientes pregu
 
 ## Datos
 
-Los datos utilizados en el proyecto se encuentran disponibles en:
+Los datos utilizados en el proyecto original se encuentran disponibles en:
 
 https://github.com/luciabergagna-jpg/centoll
 
@@ -63,6 +63,10 @@ La estructura general será:
 
     /
     ├── README.md
+    │
+    ├── datos/
+    │   ├── centollas_mentoria.csv
+    │   └── jul97.csv
     │
     ├── fernando/
     │   ├── fernando_tp1.ipynb
@@ -79,8 +83,17 @@ La estructura general será:
     ├── rodrigo/
     │   └── ...
     │
-    └── comun/
-        └── proyecto_final.ipynb
+    └── trabajo_comun/
+        ├── entregas/
+        │   ├── tp1_final.ipynb
+        │   └── ...
+        └── correcciones/
+        │   ├── tp1_final_correcciones.ipynb
+        │   └── ...
+
+### Carpeta `datos`
+
+Se almacenan los datos de la campaña de julio del 97' además de los datosoriginales del proyecto `centollas_mentoria.csv`, también disponibles en el github oficial de la mentoría. 
 
 ### Carpetas de cada integrante
 
@@ -94,11 +107,13 @@ Los notebooks se identificarán indicando el nombre y el trabajo correspondiente
 
 Además de los archivos `.ipynb`, podrán incorporarse otros formatos necesarios para el proyecto, como `.pdf` para infografías, presentaciones u otros materiales.
 
-### Carpeta `comun`
+### Carpeta `trabajo_comun`
 
-La carpeta `comun` contendrá los archivos que sean producto de la integración de los trabajos individuales, incluyendo el notebook común/final del proyecto.
+La carpeta `trabajo_comun` contendrá los archivos que sean producto de la integración de los trabajos individuales, incluyendo el notebook común/final del proyecto.
 
 La idea es que cada integrante trabaje principalmente sobre sus propios archivos y que los aportes sean posteriormente integrados en los archivos comunes.
+
+Se incluye un subdirectorio para guardar las `entregas` y otro para mantener un registro de las `correcciones` hechas por la mentora.
 
 ## Forma de trabajo
 
