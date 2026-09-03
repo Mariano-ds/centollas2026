@@ -88,8 +88,8 @@ La estructura general será:
         │   ├── tp1_final.ipynb
         │   └── ...
         └── correcciones/
-        │   ├── tp1_final_correcciones.ipynb
-        │   └── ...
+            ├── tp1_final_correcciones.ipynb
+            └── ...
 
 ### Carpeta `datos`
 
